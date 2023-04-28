@@ -1,11 +1,12 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 const Footer = () => {
   return (
     <div className='flex flex-col max-lg:m-1 max-lg:space-y-1 '>
 <div className='lg:bg-[#7ead5e] bg-[green] lg:px-[12px] px-[8px] lg:py-[16px] py-[10px]  max-lg:rounded-[10px]'>
            <ul className='flex flex-row md:justify-center lg:text-xl md:text-lg  flex-wrap text-white '>
-            <li className='cursor-pointer hover:text-gray-200 border-r border-white px-[6px] lg:px-[40px]'>Home </li>
+            <NavLink to='/'><li className='cursor-pointer hover:text-gray-200 border-r border-white px-[6px] lg:px-[40px]'>Home </li></NavLink>
             <li className='cursor-pointer hover:text-gray-200 border-r border-white px-[6px] lg:px-[40px]'>Disclaimer </li>
             <li className='cursor-pointer hover:text-gray-200 border-r border-white px-[6px] lg:px-[40px]'>Privacy Policy </li>
             <li className='cursor-pointer hover:text-gray-200 border-r border-white px-[6px] lg:px-[40px]'>Sitemap </li>

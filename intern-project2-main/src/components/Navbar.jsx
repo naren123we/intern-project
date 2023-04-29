@@ -78,10 +78,10 @@ const Navbar = () => {
         <div className='dropdown'>
           <p className='flex items-center cursor-pointer hover:text-yellow-300'>Cultivation<RiArrowDropDownLine className='text-2xl' /></p>
           <div className="dropdown-content">
-            <a href="#">Process And Duration</a>
+          <NavLink to='process-duration'>Process And Duration</NavLink>
           
-            <a href="#">Black Rice Varieties And Seed Quantity</a>
-            <a href="#">Black Rice Sowing Method</a>
+          <NavLink to='varieties'>Black Rice Varieties And Seed Quantity</NavLink>
+       
         
           </div>
         </div>
@@ -90,8 +90,8 @@ const Navbar = () => {
           <div className="dropdown-content">
          
           <NavLink to='nutritionalinfo'>Properties</NavLink>
-          <a href="#">Benefits of Black Rice</a>
-               <a href="#">Health Benefits</a>
+          <NavLink to='benefits'>Benefits of Black Rice</NavLink>
+             
         
           </div>
         </div>
@@ -138,9 +138,9 @@ const Navbar = () => {
               <div className='dropdown2'>
               <li className=' cursor-pointer flex justify-between font-serif  p-2 border-t-white border-t hover:bg-[#008000] text-white' onClick={()=>{setshow4(!show4)}}><p>Cultivation</p> <RiArrowDropDownLine className='text-2xl' /></li>
               <div className={`dropdown-content2 ${show4 ? 'block' : 'hidden'} w-[100vw]`}>
-              <a href="#">Process And Duration</a>
-               <a href="#">Black Rice Varieties And Seed Quantity</a>
-          <a href="#">Black Rice Sowing Method</a>
+              <NavLink to='process-duration'>Process And Duration</NavLink>
+               <NavLink to='varieties'>Black Rice Varieties And Seed Quantity</NavLink>
+        
             </div>
               </div>
 
@@ -148,8 +148,8 @@ const Navbar = () => {
               <li className=' cursor-pointer flex justify-between font-serif  p-2 border-t-white border-t hover:bg-[#008000] text-white'onClick={()=>{setshow5(!show5)}} ><p>Nutritional Information</p> <RiArrowDropDownLine className='text-2xl' /></li>
               <div className={`dropdown-content2 ${show5 ? 'block' : 'hidden'} w-[100vw]`}>
            <NavLink to='nutritionalinfo'>Properties</NavLink>
-               <a href="#">Benefits of Black Rice</a>
-               <a href="#">Health Benefits</a>
+           <NavLink to='benefits'>  Benefits of Black Rice</NavLink>
+             
       
             </div>
               </div>
@@ -164,7 +164,7 @@ const Navbar = () => {
               </div>
             </div>
            
-            <li className=' cursor-pointer font-serif  p-2 border-t-white border-t hover:bg-[#008000] text-white'>General Info</li>
+           <NavLink to='general-info'><li className=' cursor-pointer font-serif  p-2 border-t-white border-t hover:bg-[#008000] text-white'>General Info</li></NavLink> 
             <li className=' cursor-pointer font-serif hover:bg-[#008000]  p-2 border-t-white border-t text-white'><a href={Restration}>Registration Process</a></li>
           </ul>
         </div>

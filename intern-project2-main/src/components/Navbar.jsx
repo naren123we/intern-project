@@ -55,26 +55,22 @@ const Navbar = () => {
       <div className='hidden lg:flex flex-row p-3 bg-[#7ead5e]  text-lg justify-around  items-center  flex-wrap space-x-4 text-white  font-semibold'>
        <NavLink to='/'> <p> <AiOutlineHome className='text-yellow-300 text-2xl' /></p></NavLink>
        
-        <div className='dropdown'>
-          <p className='flex items-center cursor-pointer hover:text-yellow-300'>About<RiArrowDropDownLine className='text-2xl' /></p>
-          <div className="dropdown-content">
-            <a href="#">About Black Rice</a>
-            <a href="#">Black Salt Rice Festival</a>
-           
-        
-          </div>
-        </div>
+ 
+       <NavLink to='aboutblacksalt'> <li className='flex items-center cursor-pointer hover:text-yellow-300'>About</li></NavLink>
+          
 
 
         <div className='dropdown'>
-          <p className='flex items-center cursor-pointer hover:text-yellow-300'>Production<RiArrowDropDownLine className='text-2xl' /></p>
+          <p className='flex items-center cursor-pointer hover:text-yellow-300'>Production <RiArrowDropDownLine className='text-2xl' /></p>
           <div className="dropdown-content">
-            <a href="#">Year Wise Increase</a>
-            <a href="#">Production Initiatives</a>
-            <a href="#">Average Production</a>
+          <NavLink to='production'>Production of Kalanamak</NavLink>
+          
+          <NavLink to='methods'>Method of Production</NavLink>
+       
         
           </div>
-        </div>
+         
+          </div>
         <div className='dropdown'>
           <p className='flex items-center cursor-pointer hover:text-yellow-300'>Cultivation<RiArrowDropDownLine className='text-2xl' /></p>
           <div className="dropdown-content">
@@ -90,7 +86,7 @@ const Navbar = () => {
           <div className="dropdown-content">
          
           <NavLink to='nutritionalinfo'>Properties</NavLink>
-          <NavLink to='benefits'>Benefits of Black Rice</NavLink>
+          <NavLink to='benefits'>Benefits of Black Rice Salt</NavLink>
              
         
           </div>
@@ -118,21 +114,21 @@ const Navbar = () => {
 
         <div className={`${toggle ? 'flex' : 'hidden'}  bg-[#7ead5e] my-2 w-full sidebar`}>
           <ul className='list-none flex flex-col justify-center  flex-1'>
-            <li className=' cursor-pointer  p-2 border-t-[#5f7d4b] border-t hover:bg-[#008000]'> <AiOutlineHome className='text-yellow-300 text-2xl' /></li>
+           <NavLink to='/'> <li className=' cursor-pointer  p-2 border-t-[#5f7d4b] border-t hover:bg-[#008000]'> <AiOutlineHome className='text-yellow-300 text-2xl' /></li></NavLink>
            
             <div className='dropdown2'>
               <li className=' cursor-pointer flex justify-between font-serif  p-2 border-t-white border-t hover:bg-[#008000] text-white' onClick={()=>{setshow2(!show2)}} ><p>About</p> <RiArrowDropDownLine className='text-2xl' /></li>
               <div className={`dropdown-content2 ${show2 ? 'block' : 'hidden'} w-[100vw]`}>
-              <a href="#">About Black Rice</a>
+              <NavLink to='aboutblacksalt'>About Black Rice</NavLink>
             <a href="#">Black Salt Rice Festival</a>
             </div>
               </div>
               <div className='dropdown2'>
               <li className=' cursor-pointer flex justify-between font-serif  p-2 border-t-white border-t hover:bg-[#008000] text-white' onClick={()=>{setshow3(!show3)}}><p>Production</p> <RiArrowDropDownLine className='text-2xl' /></li>
               <div className={`dropdown-content2 ${show3 ? 'block' : 'hidden'} w-[100vw]`}>
-              <a href="#">Year Wise Increase</a>
-            <a href="#">Production Initiatives</a>
-            <a href="#">Average Production</a>
+              <NavLink to='production'>Production of Kalanamak</NavLink>
+              <NavLink to='methods'>Method of Production </NavLink>
+           
             </div>
               </div>
               <div className='dropdown2'>
@@ -148,7 +144,8 @@ const Navbar = () => {
               <li className=' cursor-pointer flex justify-between font-serif  p-2 border-t-white border-t hover:bg-[#008000] text-white'onClick={()=>{setshow5(!show5)}} ><p>Nutritional Information</p> <RiArrowDropDownLine className='text-2xl' /></li>
               <div className={`dropdown-content2 ${show5 ? 'block' : 'hidden'} w-[100vw]`}>
            <NavLink to='nutritionalinfo'>Properties</NavLink>
-           <NavLink to='benefits'>  Benefits of Black Rice</NavLink>
+           <NavLink to='nutritionalinfo'>Benefits of Black Rice Salt</NavLink>
+       
              
       
             </div>

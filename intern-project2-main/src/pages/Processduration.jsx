@@ -4,9 +4,9 @@ import img6 from '../images/img6.jpg'
 const Processduration = () => {
   return (
     <div className='lg:px-28 md:px-12 sm:px-5 px-3  lg:py-8 py-4'>
-        <div className=' text-center w-[100%]'>
+        
         <h1 className=' font-semibold sm:text-3xl text-[21px]  inline-block px-2 border-b-[#af7501] mb-3 border-b text-[#0f5f17]'>Cultivation of Black Salt Rice</h1>
-        </div>
+        
                     <p className=' pt-2 md:text-lg'>Black salt rice is grown in the Terai region of Siddharth Nagar and ten neighboring districts of eastern Uttar Pradesh. It is a fragrant rice variety which is generally given better price
                      to the farmers than other varieties of rice. </p>
 

@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 import Card from '../components/Card'
 import CarouselPage from '../components/Carousel'
 
@@ -30,9 +31,9 @@ recovered from one of the rooms, which was supposed to be the kitchen store. </p
          <div className='mop  py-4' id='production'>
         <h1 className='font-bold text-center md:text-3xl  text-2xl py-3 text-white'>Method Of Production</h1>
         <div className='flex lg:flex-row flex-col justify-center items-center lg:space-x-8 max-lg:space-y-5 py-10'>
-        <Card data='Seed Germination Test' val='1' />
-        <Card data='Preparation Of Nursery' val='2' />
-        <Card data='Pest And Disease'  val='3'/>
+       <NavLink to='methods'> <Card data='Seed Germination Test' val='1' /></NavLink>
+        <NavLink to='methods'><Card data='Preparation Of Nursery' val='2' /></NavLink>
+       <NavLink to='methods'> <Card data='Pest And Disease'  val='3'/></NavLink>
         </div>
         
             

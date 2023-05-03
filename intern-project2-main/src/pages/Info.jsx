@@ -4,7 +4,7 @@ const Info = () => {
   
   return (
 <div className='lg:px-32 md:px-12 sm:px-5 px-3  lg:py-8 py-4'>
-   <h1 className=' md:text-3xl text-2xl max-sm:py-1 font-bold border-b-[#af7501] border-b text-[#0f5f17]'>General Information</h1>
+   <h1 className=' md:text-3xl text-2xl max-sm:py-1 font-bold inline-block px-2 border-b-[#af7501] border-b text-[#0f5f17]'>General Information</h1>
    <div className='my-2 md:my-4'>
     <h2 className='font-semibold text-xl py-1 border-b-[#af7501] border-b text-[#0f5f17]'>What is a Geographical Indication? </h2>
     

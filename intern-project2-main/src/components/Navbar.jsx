@@ -1,4 +1,4 @@
-import logo from '../images/APEDA-Logo.png'
+import logo from '../images/logo.png'
 import G_logo from '../images/g20.png'
 import { FaFacebook } from 'react-icons/fa';
 import { BsTwitter } from 'react-icons/bs';
@@ -29,20 +29,16 @@ const Navbar = () => {
       <div className='py-2 px-4 flex lg:flex-row flex-col justify-between'>
         <div className='lg:justify-between sm:justify-start flex sm:flex-row flex-col  items-center space-x-12'>
           <img src={logo} className='lg:w-[350px] w-[500px]' />
-          <img src={G_logo} className='lg:w-[90px]    sm:w-[75px] md w-[150px]  ' />
+          <img src={G_logo} className='lg:w-[100px]    sm:w-[75px] md w-[150px]  ' />
         </div>
         <div className='flex sm:flex-row relative flex-col-reverse  max-sm:my-1 justify-between xl:space-x-10 space-x-2 sm:items-center'>
 
-          <ul className='flex flex-row font-semibold flex-wrap items-center space-x-1 xl:mr-[40px] max-sm:my-2 max-sm:ml-2 text-lg max-sm:text-xl'>
-            <li className='text-[#185f06]   hover:underline cursor-pointer'>हिंदी में</li>
-            <li className='text-[#185f06]  cursor-pointer'>|</li>
-            <li className='text-[#185f06]  cursor-pointer hover:underline'>RTI</li>
-            <li className='text-[#185f06]  cursor-pointer'>|</li>
-            <li><FaFacebook className='text-[#3B5998] hover:underline cursor-pointer' /></li>
-            <li><BsTwitter className='text-[#55ACEE] hover:underline cursor-pointer' /></li>
-            <li><BsLinkedin className='text-[#007bb5] hover:underline cursor-pointer' /></li>
-            <li><BsYoutube className='text-[red] hover:underline cursor-pointer' /></li>
-            <li><AiOutlineInstagram className='text-[#b5009f] hover:underline cursor-pointer' /></li>
+          <ul className='flex flex-row font-semibold flex-wrap items-center space-x-2 xl:mr-[40px] max-sm:my-2 max-sm:ml-2 text-2xl '>
+            <li className='hover:scale-105'><FaFacebook className='text-[#3B5998]  hover:underline cursor-pointer' /></li>
+            <li  className='hover:scale-105'><BsTwitter className='text-[#55ACEE] hover:underline cursor-pointer' /></li>
+            <li  className='hover:scale-105'><BsLinkedin className='text-[#007bb5] hover:underline cursor-pointer' /></li>
+            <li  className='hover:scale-105'><BsYoutube className='text-[red] hover:underline cursor-pointer' /></li>
+            <li  className='hover:scale-105'><AiOutlineInstagram className='text-[#b5009f] hover:underline cursor-pointer' /></li>
           </ul>
           <div className='flex flex-row relative items-center space-x-1 max-md:mt-2'>
             <RxCross2 className={`absolute cursor-pointer right-[84px] transition-all ${searchval!==''?'block':'hidden'}`} onClick={()=>{setsearch('')}}/>

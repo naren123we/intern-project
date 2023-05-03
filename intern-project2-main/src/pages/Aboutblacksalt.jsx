@@ -16,7 +16,7 @@ const Aboutblacksalt = () => {
         <div className='flex lg:flex-row flex-col-reverse items-center lg:space-x-10 my-2 md:my-4 '>
          
          
-           <img src={history1} className='w-[45%]  pt-2 lg:pt-0 ' />
+           <img src={history1} className='lg:w-[45%]  pt-2 lg:pt-0 ' />
            
            <div>
                      
@@ -71,7 +71,7 @@ Rs 119000-00 more per hectare is obtained from Kalanamak rice as compared to nor
               would be able to taste dishes made with Kala Namak rice. They can purchase Kala Namak paddy seeds and rice from these stalls. </p>
               </div>
               
-               <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzYlxwCPINGFZNdtEmhBAjyRyvmX8OEAdUWQ&usqp=CAU' className='w-[50%]  pt-2 lg:pt-0 ' />  
+               <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzYlxwCPINGFZNdtEmhBAjyRyvmX8OEAdUWQ&usqp=CAU' className='lg:w-[50%]  pt-2 lg:pt-0 ' />  
 </div>
 <p className='md:text-lg -mt-2'> During the festival, 
               the visitors will get to know the historical, nutritional and scientific merits &information regarding the cultivation of Kala Namak Rice. The festival displayed several dishes

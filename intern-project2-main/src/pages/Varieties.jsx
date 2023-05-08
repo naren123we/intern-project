@@ -4,9 +4,9 @@ const Varieties = () => {
   return (
     <div className='lg:px-28 md:px-12 sm:px-5 px-3  lg:py-8 py-4'>
 
-    <h1 className=' font-semibold text-2xl py-1 border-b-[#af7501] border-b text-[#0f5f17]'>How much seed is required for cultivation of black paddy</h1>
+    <h1 className='font-semibold sm:text-3xl text-2xl  inline-block pr-2 py-1 border-b-[#af7501] mb-3 border-b-2 text-[#0f5f17]'>How Much Seed Is Required For Cultivation of Black Paddy</h1>
     
-                <p className=' pt-2 md:text-lg'>About three forts of black paddy seeds are required for cultivation on one bigha of black paddy land. 
+                <p className=' pt-1 md:text-lg'>About three forts of black paddy seeds are required for cultivation on one bigha of black paddy land. 
                 The farmer can buy black paddy seeds at the rate of Rs.300 per kilo either from the local market or by contacting the horticulture department of his district or government nursery or KrishiVigyan Kendra. If there is an agricultural university nearby,
                  it can be obtained from there also. If you grow black paddy organically, you get more for it.</p>
 
@@ -14,7 +14,7 @@ const Varieties = () => {
        <img src={img4} className='lg:w-[45%] w-[97%]  pt-2 lg:pt-0 ' />
        <div>
                  
-            <h2 className='font-semibold text-xl py-1 border-b-[#af7501] border-b text-[#0f5f17]'>Learn, the advanced variety of black paddy and the right method of cultivation</h2>
+            <h2 className='font-semibold text-xl py-1 border-b-[#af7501] border-b text-[#0f5f17] capitalize'>Learn, the advanced variety of black paddy and the right method of cultivation</h2>
             <p className=' pt-1 md:text-lg'>There is good news for diabetic patients, now they too can eat rice fearlessly. It will also prove to be a boon for the patients of diabetes and
              blood pressure.  The market price of black paddy ranges from Rs 400 to Rs 800 per kg.The dreams of the farmers will be fulfilled by the cultivation of 
              black paddy which is sold for Rs 400 to 800 per kg. Fertilizers, pesticides are not used in its cultivation, due to which the cost of its cultivation is less, there is no 
@@ -31,7 +31,7 @@ const Varieties = () => {
        </div>
        <div className='my-4 md:my-0'>
                  
-                 <h2 className='font-semibold text-xl py-1 border-b-[#af7501] border-b text-[#0f5f17]'>Black Rice Varieties</h2>
+                 <h2 className='font-semibold text-xl py-1 border-b-[#af7501] border-b text-[#0f5f17] capitalize'>Black Rice Varieties</h2>
                  <p className=' pt-1 md:text-lg'>In the last few years, the trend of farmers has increased rapidly towards new hybrid paddy seeds. Due to this farmers
                   are forgetting the old varieties of paddy crops. As a result, these varieties are gradually disappearing. In such a situation, there are some farmers who are not only cultivating 
                   old varieties of paddy, but are also motivating other farmers to cultivate it.Black paddy is cultivated in a completely organic way. If chemical fertilizers are used in the cultivation of black paddy, 

@@ -3,7 +3,10 @@ import React from 'react'
 const Benefits = () => {
   return (
     <div className='lg:px-32 md:px-12 sm:px-5 px-3  lg:py-8 py-4'>
-        <h1 className='text-center md:text-3xl text-2xl font-bold text-[#0f5f17] max-md:py-1'>Benefits Of Black Rice</h1>
+<div className='text-center'>
+       
+       <h1 className=' font-semibold sm:text-3xl text-2xl  max-md:inline-block max-md:px-2 max-md:border-b-[#af7501] max-md:border-b-2   max-sm:py-1 text-center  px-1   text-[#0f5f17]'>Benefits of Black Rice Salt </h1>
+       </div>
             <div className='my-2 md:my-4'>
                 <h2 className='font-semibold text-xl py-1 border-b-[#af7501] border-b text-[#0f5f17]'> Health Benefits Of Black Rice </h2>
                 <li className='pt-1 md:text-lg'>	It is a very good source of antioxidants, which are very important for the body. It protects the body from free radicals,

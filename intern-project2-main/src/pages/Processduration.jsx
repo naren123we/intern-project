@@ -5,23 +5,23 @@ const Processduration = () => {
   return (
     <div className='lg:px-28 md:px-12 sm:px-5 px-3  lg:py-8 py-4'>
         
-        <h1 className=' font-semibold sm:text-3xl text-[21px]  inline-block px-2 border-b-[#af7501] mb-3 border-b text-[#0f5f17]'>Cultivation of Black Salt Rice</h1>
+        <h1 className=' font-semibold sm:text-3xl text-[22px]  inline-block pr-2 border-b-[#af7501] mb-3 border-b-2 text-[#0f5f17]'>Cultivation of Black Salt Rice</h1>
         
-                    <p className=' pt-2 md:text-lg'>Black salt rice is grown in the Terai region of Siddharth Nagar and ten neighboring districts of eastern Uttar Pradesh. It is a fragrant rice variety which is generally given better price
+                    <p className=' pt-1 md:text-lg'>Black salt rice is grown in the Terai region of Siddharth Nagar and ten neighboring districts of eastern Uttar Pradesh. It is a fragrant rice variety which is generally given better price
                      to the farmers than other varieties of rice. </p>
 
            <div className='flex lg:flex-row flex-col-reverse items-center lg:space-x-10 my-2 md:my-4 '>
            <img src={img6} className='lg:w-[45%] w-[97%]  pt-2 lg:pt-0 ' />
            <div>
                      
-                <h2 className='font-semibold text-xl py-1 border-b-[#af7501] border-b text-[#0f5f17]'>How is black paddy cultivated?</h2>
+                <h2 className='font-semibold text-xl py-1 border-b-[#af7501] border-b text-[#0f5f17] capitalize'>How is black paddy cultivated?</h2>
                 <p className=' pt-1 md:text-lg'>Cultivation of black paddy is also done almost like the cultivation of normal paddy. Black paddy is cultivated in the same fields as 
                 normal paddy is cultivated. Its cultivation is possible only where there is not much water. Because it requires less water as compared to hybrid paddy.The height of its plants
                  ranges from about 4 and a half feet to 5 feet and only potash can be used as a fertilizer.</p>
                   
                  <div className='my-4 md:my-0'>
                      
-                     <h2 className='font-semibold text-xl py-1 border-b-[#af7501] border-b text-[#0f5f17]'>In how many days black paddy (black salt paddy) is ready?</h2>
+                     <h2 className='font-semibold text-xl py-1 border-b-[#af7501] border-b text-[#0f5f17]'>In How Many Days Black Paddy (Black Salt Paddy) Is Ready?</h2>
                      <p className=' pt-1 md:text-lg'>Nine types of old indigenous varieties like Kala Namak, JawaPhool, TilakChandan,
                       MalliPhool are suitable for cultivation. The productivity of black salt is low but the quality is good. Normally paddy crop is ready in 115 to 120 days but 
                       black salt is ready in 140 days.  </p>

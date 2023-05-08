@@ -5,7 +5,7 @@ const Production = () => {
         <div className='lg:px-28 md:px-12 sm:px-5 px-3  lg:py-8 py-4'>
             <div>
             
-        <h1 className=' font-semibold sm:text-3xl text-[21px]  inline-block px-2 border-b-[#af7501] mb-3 border-b text-[#0f5f17]'>Production of Kalanamak </h1>
+        <h1 className=' font-semibold sm:text-3xl text-2xl  inline-block pr-2 border-b-[#af7501] mb-3 border-b-2 text-[#0f5f17]'>Production of Kalanamak </h1>
         
              <p className='pt-1 md:text-lg'>Where earlier black salt was cultivated in an area of about 22000 hectares in district Siddharth Nagar, due to low production in the course of time,
                     gradually the farmers got disillusioned with its cultivation, and in its place other varieties of paddy were cultivated. After this, from the year 2017, the Agriculture Department
@@ -16,7 +16,7 @@ const Production = () => {
             </div>
 
             <div className='my-2 md:my-4'>
-    <h2 className='font-semibold text-xl py-1 border-b-[#af7501] border-b text-[#0f5f17]'>Year-wise increase in area and production in the district  </h2>
+    <h2 className='font-semibold text-xl py-1 border-b-[#af7501] border-b text-[#0f5f17] capitalize'>Year-wise increase in area and production in the district  </h2>
   <div className='lg:w-[80%] w-[100%]'>
     <table id='customers' className='mt-3 '>
             <tr>
@@ -61,7 +61,7 @@ const Production = () => {
         </div>
    </div>
    <div className='my-2  md:my-4'>
-   <h2 className='font-semibold text-xl py-1 border-b-[#af7501] border-b text-[#0f5f17]'>Meaningful initiative to promote black salt production by the district </h2>
+   <h2 className='font-semibold text-xl py-1 border-b-[#af7501] border-b text-[#0f5f17] capitalize'>Meaningful initiative to promote black salt production by the district </h2>
    <p className='pt-1 md:text-lg'>
    In order to make the seeds of black salt easily available to the farmers at a subsidized rate, in the year 2020-21, certified seeds of black salt were produced on an area of 04 hectares in the state agriculture
     area of the district, from which a total of 80 ku 0 seeds have been obtained. Similarly, in the year 2022-23, 180 quintal certified seeds of black salt were produced on 10 hectare area in the state agriculture sector. 

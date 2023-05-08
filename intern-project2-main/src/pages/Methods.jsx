@@ -3,9 +3,10 @@ import React from 'react'
 const Methods = () => {
   return (
     <div className='lg:px-28 md:px-12 sm:px-5 px-3  lg:py-8 py-4'>
+        <div className='text-center'>
        
-        <h1 className=' font-semibold sm:text-3xl text-[21px]  inline-block px-2 border-b-[#af7501] mb-3 border-b text-[#0f5f17]'>Method of Production </h1>
-        
+        <h1 className=' font-semibold sm:text-3xl text-2xl  max-md:inline-block max-md:px-2 max-md:border-b-[#af7501] max-md:border-b-2   max-sm:py-1 text-center  px-2   text-[#0f5f17]'>Method of Production </h1>
+        </div>
         <div className='my-2 md:my-4'>
     <h2 className='font-semibold text-xl py-1 border-b-[#af7501] border-b text-[#0f5f17]'>Seed Germination Test</h2>
     <p className='pt-1 md:text-lg'></p>

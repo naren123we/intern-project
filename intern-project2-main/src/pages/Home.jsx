@@ -50,10 +50,10 @@ recovered from one of the rooms, which was supposed to be the kitchen store. </p
 
   <li className='pt-1'> Department of Plant Breeding and / or Genetics, Indian Agriculture 
  Research Institute, New Delhi. </li>
-<li className='md:pt-1'> Shoharatgarh Environmental Society Shoratgarh, Siddharth Nagar.</li> 
+<li className='md:pt-1'> Shoharatgarh Environmental Society Shoratgarh, Siddharth Nagar <span className='font-semibold'>(Prime Minister Excellence award for Kalanamak)</span>.</li> 
 <li className='md:pt-1'> Narendra Dev Agriculture University, Kumarganj, Faizabad. </li>
 <li className='md:pt-1'> Deputy Director of Agriculture, Siddharth Nagar. </li>
-<li className='md:pt-1'>Gram Pradhan, Niyao, Shoratgarh, Siddharth Nagar. </li> 
+<li className='md:pt-1'>Gram Pradhan, Niyao, Shoratgarh, Siddharth Nagar <span className='font-semibold'>(Prime Minister Excellence award for Kalanamak)</span>. </li> 
 <li className='md:pt-1'> Kalanamak Cented Paddy Production And Conservation Society Siddharth 
  Nagar. </li>
  <li className='md:pt-1'> Krishi Vigyan Kendra, Sohana, Siddharth Nagar </li>

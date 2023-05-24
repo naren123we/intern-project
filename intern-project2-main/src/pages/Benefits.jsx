@@ -5,10 +5,10 @@ const Benefits = () => {
     <div className='lg:px-32 md:px-12 sm:px-5 px-3  lg:py-8 py-4'>
 <div className='text-center'>
        
-       <h1 className=' font-semibold sm:text-3xl text-2xl  max-md:inline-block max-md:px-2 max-md:border-b-[#af7501] max-md:border-b-2   max-sm:py-1 text-center  px-1   text-[#0f5f17]'>Benefits of Black Rice Salt </h1>
+       <h1 className=' font-semibold sm:text-3xl text-2xl  max-md:inline-block max-md:px-2 max-md:border-b-[#af7501] max-md:border-b-2   max-sm:py-1 text-center  px-1   text-[#0f5f17]'>Benefits of Kalanamak Rice </h1>
        </div>
             <div className='my-2 md:my-4'>
-                <h2 className='font-semibold text-xl py-1 border-b-[#af7501] border-b text-[#0f5f17]'> Health Benefits Of Black Rice </h2>
+                <h2 className='font-semibold text-xl py-1 border-b-[#af7501] border-b text-[#0f5f17]'> Health Benefits Of Kalanamak Rice </h2>
                 <li className='pt-1 md:text-lg'>	It is a very good source of antioxidants, which are very important for the body. It protects the body from free radicals,
                     and reduces the risk of diseases. Free radicals can cause a variety of health problems
                     in our bodies, including heart disease,  and arthritis. </li>
@@ -23,7 +23,7 @@ const Benefits = () => {
 
 
             <div className='my-2 md:my-4'>
-                <h2 className='font-semibold text-xl py-1 border-b-[#af7501] border-b text-[#0f5f17]'>Health Benefits Of Eating Black Salt Rice</h2>
+                <h2 className='font-semibold text-xl py-1 border-b-[#af7501] border-b text-[#0f5f17]'>Health Benefits Of Eating Kalanamak Rice</h2>
                 <li className='pt-1 md:text-lg'>Black salt can be grown only with the help of organic farming. Therefore, the harm caused by
                     pesticides (Pesticides side effects on health) and chemical
                     fertilizers can be avoided.	</li>

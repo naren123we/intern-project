@@ -9,8 +9,8 @@ const Nutritionalinfo = () => {
 
 <img src={blackrice} className='lg:w-[45%] w-[100%] lg:h-[615px] sm:h-[480px] pt-2 lg:pt-0 ' />
 <div>
-    <h1 className=' lg:text-center  max-lg:inline-block font-semibold sm:text-3xl text-2xl py-1  border-b-[#af7501] mb-3 border-b-2 text-[#0f5f17]'>Properties Of Black Rice</h1>
-    <p className=' pt-1 md:text-lg'> Black rice has more antioxidant properties than coffee and tea, due to which it is beneficial
+    <h1 className=' lg:text-center  max-lg:inline-block font-semibold sm:text-3xl text-2xl py-1  border-b-[#af7501] mb-3 border-b-2 text-[#0f5f17]'>Properties Of Kalanamak Rice</h1>
+    <p className=' pt-1 md:text-lg'> Kalanamak rice has more antioxidant properties than coffee and tea, due to which it is beneficial
         for many health related diseases. The anti-oxidant properties present in high quantity increases the body's
         power to fight against diseases. According to experts, black rice also helps in fighting deadly diseases like
         cancer. Iron, magnesium,

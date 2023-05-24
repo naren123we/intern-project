@@ -12,6 +12,8 @@ import { FiMenu } from 'react-icons/fi'
 import { RxCross2 } from 'react-icons/rx'
 import Restration from '../dacuments/resistration.pdf'
 
+import Marquee from './Marquee';
+
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 const Navbar = () => {
@@ -75,9 +77,9 @@ const Navbar = () => {
         <div className='dropdown'>
           <p className='flex items-center cursor-pointer hover:text-yellow-300'>Cultivation<RiArrowDropDownLine className='text-2xl' /></p>
           <div className="dropdown-content">
-          <NavLink to='process-duration'>Process And Duration</NavLink>
+          <NavLink to='process-duration'>Package and prectice of Kalanamak Rice</NavLink>
           
-          <NavLink to='varieties'>Black Rice Varieties And Seed Quantity</NavLink>
+          <NavLink to='varieties'>Kalanamak Rice Varieties And Seed Quantity</NavLink>
        
         
           </div>
@@ -87,7 +89,7 @@ const Navbar = () => {
           <div className="dropdown-content">
          
           <NavLink to='nutritionalinfo'>Properties</NavLink>
-          <NavLink to='benefits'>Benefits of Black Rice Salt</NavLink>
+          <NavLink to='benefits'>Benefits of Kalanamk Rice</NavLink>
              
         
           </div>
@@ -134,8 +136,8 @@ const Navbar = () => {
               <div className='dropdown2'>
               <li className=' cursor-pointer flex justify-between font-serif  p-2 border-t-white border-t hover:bg-[#008000] text-white' onClick={()=>{setshow4(!show4)}}><p>Cultivation</p> <RiArrowDropDownLine className='text-2xl' /></li>
               <div className={`dropdown-content2 ${show4 ? 'block' : 'hidden'} w-[100vw]`}>
-              <NavLink to='process-duration' onClick={tog}>Process And Duration</NavLink>
-               <NavLink to='varieties' onClick={tog}>Black Rice Varieties And Seed Quantity</NavLink>
+              <NavLink to='process-duration' onClick={tog}>Package And Prectice of Kalanamak Rice</NavLink>
+               <NavLink to='varieties' onClick={tog}>Kalanamak Rice Varieties And Seed Quantity</NavLink>
         
             </div>
               </div>
@@ -144,7 +146,7 @@ const Navbar = () => {
               <li className=' cursor-pointer flex justify-between font-serif  p-2 border-t-white border-t hover:bg-[#008000] text-white'onClick={()=>{setshow5(!show5)}} ><p>Nutritional Information</p> <RiArrowDropDownLine className='text-2xl' /></li>
               <div className={`dropdown-content2 ${show5 ? 'block' : 'hidden'} w-[100vw]`}>
            <NavLink to='nutritionalinfo' onClick={tog}>Properties</NavLink>
-           <NavLink to='benefits' onClick={tog}>Benefits of Black Rice Salt</NavLink>
+           <NavLink to='benefits' onClick={tog}>Benefits of Kalanamak Rice</NavLink>
        
              
       
@@ -158,6 +160,9 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
+
+<Marquee />
+  
     </div>
 
   )
